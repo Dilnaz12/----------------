@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="tirkelu.css" />
+  </head>
+  <body
+    background="https://media.istockphoto.com/id/1441623276/vector/winter-pattern-of-snowflakes-background-christmas-snow-design-vector-illustration.jpg?s=612x612&w=0&k=20&c=vZyf7BIsM84On7zX0JgZ-hc43-zWjOg7S_jRCe1s-xQ="
+  >
+    <script src="tirkelu.js"></script>
+
+    <div class="container">
+      <h1>Тіркелу</h1>
+      <form id="registerForm">
+        <div class="form-group">
+          <label for="name">Атыңыз</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Атыңызды еңгізіңіз"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            placeholder=" E-mail еңгізіңіз"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="password">Пароль</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="пароль еңгізіңіз"
+            required
+          />
+        </div>
+        <button type="submit" class="submit-btn">Тіркелу</button>
+      </form>
+      <p id="successMessage" class="hidden">Сіз тіркелдіңіз!!!</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

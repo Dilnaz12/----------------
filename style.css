@@ -1,0 +1,192 @@
+body {
+  min-height: 200vh;
+}
+
+header {
+  height: 50px;
+  background: red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: all 1s;
+  color: white;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+#playlist {
+  list-style-type: none;
+  padding: 0;
+}
+
+#playlist li {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f1f1f1;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+#playlist li:hover {
+  background-color: #ffcccc;
+}
+
+audio {
+  margin-top: 20px;
+}
+
+.img1 {
+  width: 30px;
+  border-radius: 50px;
+}
+
+h1 {
+  display: flex;
+  max-width: 200px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  margin: 0 10px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.chrismassale {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  height: 200vh;
+  min-height: 200vh;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #555;
+}
+
+.buy-button {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #0056b3;
+}
+
+.sale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: larger;
+}
+
+#countdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 50px auto;
+}
+
+.pages2 {
+  width: 100%;
+  height: 100%;
+}
+
+.search {
+  border-radius: 30px;
+  font-size: larger;
+}
+
+.tirkelu {
+  border-radius: 30px;
+  background: none;
+  border: none;
+}
+
+.foto1 {
+  width: 100%;
+}
+
+footer {
+  font-size: 15px;
+  display: flex;
+  justify-content: space-around;
+  background: rgb(207, 25, 25);
+  color: white;
+  height: 30vh;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+}
+.logotip {
+  background-color: white;
+  border-radius: 30px;
+  width: 30px;
+}
